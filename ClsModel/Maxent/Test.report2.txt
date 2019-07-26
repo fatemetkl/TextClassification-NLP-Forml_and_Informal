@@ -1,0 +1,27 @@
+
+-------------------- Trial 0  --------------------
+
+Trial 0 Training MaxEntTrainer,gaussianPriorVariance=1.0 with 1590 instances
+Trial 0 Training MaxEntTrainer,gaussianPriorVariance=1.0 finished
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 Test Data Confusion Matrix
+Confusion Matrix, row=true, column=predicted  accuracy=0.9897834447011294
+    label   0   1  |total
+  0 قدیمی 339   2  |341
+  1  جدید  12  46  |58
+
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data precision(قدیمی) = 0.9795678136890321
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data precision(جدید) = 0.9719363373553331
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data recall(قدیمی) = 0.99823248367367098
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data recall(جدید) = 0.8231054492732627
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data F1(قدیمی) = 0.9991212168201071
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data F1(جدید) = 0.9259645182013849
+Trial 0 Trainer MaxEntTrainer,gaussianPriorVariance=1.0 test data accuracy = 0.9897834447011294
+
+MaxEntTrainer,gaussianPriorVariance=1.0
+Summary. test accuracy mean = 0.9649122807017544 stddev = 0.0 stderr = 0.0
+Summary. test precision(قدیمی) mean = 0.9658119658119658 stddev = 0.0 stderr = 0.0
+Summary. test precision(جدید) mean = 0.9583333333333334 stddev = 0.0 stderr = 0.0
+Summary. test recall(قدیمی) mean = 0.9941348973607038 stddev = 0.0 stderr = 0.0
+Summary. test recall(جدید) mean = 0.7931034482758621 stddev = 0.0 stderr = 0.0
+Summary. test f1(قدیمی) mean = 0.9797687861271676 stddev = 0.0 stderr = 0.0
+Summary. test f1(جدید) mean = 0.8679245283018867 stddev = 0.0 stderr = 0.0
